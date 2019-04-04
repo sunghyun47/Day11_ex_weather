@@ -1,4 +1,4 @@
-package com.iu.member;
+package com.google.member;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -37,6 +37,7 @@ public class MemberController {
 			System.out.println("4. 회원전체정보");
 			System.out.println("5. 종료");
 			int select = sc.nextInt();
+			
 			if(select==1) {
 				Member member = mi.memberJoin();
 				map.put(member.getId(), member);

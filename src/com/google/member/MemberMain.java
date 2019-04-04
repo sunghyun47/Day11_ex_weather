@@ -1,4 +1,4 @@
-package com.iu.member;
+package com.google.member;
 
 public class MemberMain {
 
